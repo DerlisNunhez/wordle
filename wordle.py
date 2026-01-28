@@ -9,8 +9,10 @@ print(f'La palabra a adivinar contiene {len(palabra_correcta)} letras\n')
 
 #Se abre una funcion, en este caso es solo para tener ordenada la presentacion, logica del juego y el mensaje final
 def verificador_palabra(palabra_correcta, intentos):
+    #Definimos las veces que va a jugar con la variable 'intento', que en este caso estaba definida
     for turno in range(intentos):
         letra = input('Por favor ingrese la palabra\n').lower()
+        #Establecemos una condicion que avise al usuario cuantas letras deberia tener la palabra ingresada
         if len(letra) < len(palabra_correcta) or len(letra) > len(palabra_correcta):
             print(f'La palabra debe tener {len(palabra_correcta)} letras\n')
             break
