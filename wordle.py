@@ -2,7 +2,7 @@ palabra = 'cielo'
 letras_verificadas = []
 intentos = 6
 palabra_correcta = list(palabra)
-
+#Presentamos el juego y como se juega
 print('Bienvenido a Wordle Python Edition')
 print('Tiene 6 intentos\nAdivine la palabra')
 print(f'La palabra a adivinar contiene {len(palabra_correcta)} letras\n')
