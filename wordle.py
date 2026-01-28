@@ -7,7 +7,7 @@ print('Bienvenido a Wordle Python Edition')
 print('Tiene 6 intentos\nAdivine la palabra')
 print(f'La palabra a adivinar contiene {len(palabra_correcta)} letras\n')
 
-
+#Se abre una funcion, en este caso es solo para tener ordenada la presentacion, logica del juego y el mensaje final
 def verificador_palabra(palabra_correcta, intentos):
     for turno in range(intentos):
         letra = input('Por favor ingrese la palabra\n').lower()
@@ -33,8 +33,10 @@ def verificador_palabra(palabra_correcta, intentos):
         print(f'Le quedan [{intentos_restantes}] intentos\n')
 
     return 
-
-verificador_palabra(palabra_correcta, intentos)
+while True:
+    verificador_palabra(palabra_correcta, intentos)
+    if input("¿Jugar otra vez? (s/n): ") != 's':
+        break
 
 print(f'La palabra correcta era {palabra}')
 print('Gracias por jugar, vuelva pronto')
