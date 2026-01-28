@@ -22,6 +22,7 @@ def verificador_palabra(palabra_correcta, intentos):
 
         if palabras == palabra_correcta:
             print('Felicidades, ganaste el juego')
+            print(f'La palabra correcta era {palabra}')
             return 
         #Desglosamos la palabra correcta y comparamos letra por letra la palabra ingresada
         for i in range(len(palabra_correcta)):
@@ -42,5 +43,4 @@ while True:
     if input("¿Jugar otra vez? (s/n): ") != 's':
         break
 
-print(f'La palabra correcta era {palabra}')
 print('Gracias por jugar, vuelva pronto')
