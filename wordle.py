@@ -7,6 +7,7 @@ print('Bienvenido a Wordle Python Edition')
 print('Tiene 6 intentos\nAdivine la palabra')
 print(f'La palabra a adivinar contiene {len(palabra_correcta)} letras\n')
 
+
 def verificador_palabra(palabra_correcta, intentos):
     for turno in range(intentos):
         letra = input('Por favor ingrese la palabra\n').lower()
