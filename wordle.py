@@ -34,6 +34,7 @@ def verificador_palabra(palabra_correcta, intentos):
             else:
                 letras_verificadas.append(palabras[i])
 
+
         intentos_restantes = intentos - turno - 1
         print(letras_verificadas)
         print(f'Le quedan [{intentos_restantes}] intentos\n')
