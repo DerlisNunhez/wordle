@@ -1,8 +1,8 @@
 # Wordle Python Edition
 # Un juego de adivinanza de palabras inspirado en Wordle, implementado en Python para la consola.
-# 📝 Descripción
+#     Descripción
 # Wordle Python Edition es una versión en español del popular juego Wordle. El objetivo es adivinar una palabra oculta de 5 letras en un máximo de 6 intentos. Después de cada intento, el juego te da pistas sobre qué letras están correctas y en qué posición.
-# 🎮 Cómo jugar
+#     Cómo jugar
 # 
 # El juego elige una palabra secreta de 5 letras
 # Tienes 6 intentos para adivinar la palabra
